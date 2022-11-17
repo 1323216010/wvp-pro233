@@ -87,7 +87,7 @@
 			<version>${jedis-version}</version>
 		</dependency>
 
-		<!-- druid数据库连接池 -->
+		<!-- 数据库连接池 -->
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid-spring-boot-starter</artifactId>
@@ -245,6 +245,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 <!--			<scope>test</scope>-->
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpcore</artifactId>
+			<version>4.4.13</version>
 		</dependency>
 	</dependencies>
 
